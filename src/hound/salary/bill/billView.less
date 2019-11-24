@@ -1,0 +1,63 @@
+.billView{
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+           flex-flow: column;
+    .am-navbar.am-navbar-light{
+    	background-color: #ececec;
+    	color: #343434;
+    	.am-navbar-title{
+	    	font-size: 0.34rem;
+	    	font-family: "微软雅黑";
+    	}
+    }
+    .tableTitle{
+    	line-height: 0.9rem;
+    	text-indent: 0.3rem;
+    	background-color: #f4f4f4;
+    	font-family: "微软雅黑";
+    	font-size: 0.34rem;
+    	color: #343434;
+    	border-bottom: 1PX solid #e4e4e4;
+    }
+	.tableBox{
+		padding: 0 0.3rem;
+		-webkit-box-flex: 1; 
+	    -webkit-flex: 1;
+	    flex: 1;
+	    overflow: scroll;
+		padding: 0 0.3rem;
+		border-color:#e4e4e4;
+		.am-table-row{
+			td{
+				font-family: "微软雅黑";
+				font-size: 0.3rem;
+				color: #343434;
+				text-align:right;
+				width: 50%;
+				border-bottom: 1PX solid #e4e4e4;
+				&.am-table-horizonTitle{
+					background-color: #ffffff;
+					color: #808080;
+					text-align:left;
+					&.bold{
+						span{
+							color: #000;
+						}
+					}
+				}
+				&.bold{
+					span{
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}	
+}

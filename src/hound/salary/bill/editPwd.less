@@ -1,0 +1,89 @@
+.editPwd{
+	background-color: #f4f4f4;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+    .am-navbar.am-navbar-light{
+    	background-color: #ececec;
+    	color: #343434;
+    	.am-navbar-title{
+	    	font-size: 0.34rem;
+	    	font-family: "微软雅黑";
+    	}
+    }
+
+    .am-list{
+    	.am-list-body{
+            &:after{border:none;}
+    		border-top: none;
+    		.am-list-item:after{
+    			border:none;
+    		}
+    		.am-list-item{
+                background-color: #f4f4f4;
+                padding-right: 0.3rem;
+    			.am-list-line{
+                    &:after{border:none;}
+                    padding-right: 0;
+    				.am-list-content{
+						padding: 0;
+                        position: relative;
+                        p.s-am-p{
+                            width: 100%;
+                            text-align: center;
+                            font-family: "微软雅黑";
+                            font-size: 0.3rem;
+                            color:#808080;
+                        }
+						.am-button.am-button-primary{
+							background-color: #1baede;
+							border-color:#1baede;
+							font-family: "微软雅黑";
+							font-size: 0.34rem;
+						}
+                        i{
+                            display: block;
+                            width: 0.9rem;
+                            height: 0.9rem;
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            background:url(../../../static/common/icon/pwd_close.png) no-repeat center center;
+                            background-size:0.46rem auto;
+                            &.text{
+                                background-image: url(../../../static/common/icon/pwd_open.png);
+                            }
+                            &.password{
+                                background-image: url(../../../static/common/icon/pwd_close.png);
+                            }
+                        }
+					}
+				}
+                &.inputItem{
+                    background-color: #ffffff;
+                    .am-list-line{
+                        &:after{
+                            border-bottom:1PX solid #e4e4e4;
+                        }
+                        .am-list-item.am-input-item{
+                            background-color: #ffffff;
+                            .am-input-label{
+                                font-family: "微软雅黑";
+                                font-size: 0.3rem;
+                                color:#808080;
+                            }
+                            .am-input-control{
+                                input{
+                                    font-family: "微软雅黑";
+                                    &::-webkit-input-placeholder{
+                                        color: #c0c0c0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    		}
+    	}
+    }
+}

@@ -1,0 +1,135 @@
+.am-popup-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 999;
+    background: #f4f4f4;
+}
+.feedbackForm{
+    background-color: #f4f4f4;
+}
+.feedbackForm .am-navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 0.88rem ! important;
+    background-color: #ececec; 
+    color: #444;
+}
+.feedbackForm .anticon-left{
+    font-weight: 700;
+}
+.feedbackForm .am-navbar-title {
+    color: #343434;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+
+.feedbackForm .am-textarea-control textarea {
+    color: #000;
+    font-size: 0.3rem;
+    font-family: "微软雅黑";
+    /* line-height: 0.442rem; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+    overflow: visible;
+    display: block;
+    resize: none;
+    word-break: break-all;
+    word-wrap: break-word;
+
+}
+.feedbackForm div.am-image-picker-item{
+    width : 1.51rem ! important ;
+    height : 1.51rem ! important ;
+}
+.feedbackForm .am-list .am-list-item.am-textarea-item:after {
+	border : none ;
+}
+.feedbackForm .addborder{
+    height:2.5rem ! important ;
+	border-bottom: 0.4rem solid #ececec;
+}
+
+.feedbackForm button.btn{
+	display: block ;
+	width:100%;
+	height:0.9rem;
+    position: absolute;
+    left: 0 ;
+    top:0;
+	color:#fff;
+	font-size: 0.34rem;
+    font-weight :500;
+    background: #1baede;
+    margin-top: -0.9rem;
+}
+
+.feedbackForm .title{
+    padding-left: 0.2rem;
+    color:#808080 ;
+    font-size: 0.3rem;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    height: 0.3rem;
+}
+
+.feedbackForm .showBox span {
+    display: inline-block;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-radius: 0.3rem;
+    padding: 0 0.25rem;
+    background: #bdbdbd;
+    color: #fff;
+    position: absolute;
+    right: 0.12rem;
+    bottom: 0.1rem;
+}
+
+
+
+.feedbackForm .am-list-body:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    border-bottom: none !important;
+}
+
+
+.feedbackForm .am-button-inline {
+    width: auto;
+    padding: 0 0 ! important; 
+}
+.feedbackForm .rmvclick {
+    height: 5.9rem;
+}
+.feedbackForm .am-button {
+    display: inline-block;
+    font-size: 0.32rem;
+    height: 0.7rem;
+    color: #343434;
+    background-color: #fff;
+    border: none  !important;
+}
+
+.feedbackForm .am-button:after{
+    border:none !important;
+}
+.feedbackForm .am-image-picker .am-image-picker-list .am-image-picker-item {
+    position: relative;
+    margin-right: 0.2rem ! important;
+    margin-bottom: 0.12rem;
+}
+

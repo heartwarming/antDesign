@@ -1,0 +1,105 @@
+.info {
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: "Microsoft Yahei";
+    overflow-y: auto;
+    overflow-x: hidden;
+    .info-panel {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px 35px;
+        background-color: white;
+        overflow: hidden;
+        /*头像照片*/
+        .info-photo {
+            width: 140px;
+            height: 195px;
+            float: left;
+            background-color: #ccc;
+            img {
+                width: 140px;
+                height: 195px;
+            }
+            // span {
+            //     background: url('../../../static/myteam/long.png') left center no-repeat ;
+            //     text-align: center;
+            //     display: inline-block;
+            //     line-height: 1.95rem;
+            //     width: 1.4rem;
+            //     height: 1.95rem;
+            // }
+        }
+        /*人物标题*/
+        .info-head {
+            height: 195px;
+            margin-left: 25px;
+            float: left;
+            h1 {
+                margin-top: 38px;
+                font-size: 42px;
+                font-weight: bold
+            }
+            h2 {
+                font-size: 32px;
+                color: #2db3e0
+            }
+        }
+        /*类别标题*/
+        .info-title {
+            color: #343434;
+            height: 1.3em;
+            font-size: 34px;
+            font-weight: bold;
+            i {
+                display: inline-block;
+                width: 0.3em;
+                height: 1.3em;
+                background: #2db3e0;
+            }
+            span {
+                display: inline-block;
+                height: 1.3em;
+                line-height: 1.3em;
+                margin-left: 15px;
+                overflow: hidden
+            }
+        }
+        /*类别日期*/
+        .info-date {
+            margin: 1em auto -0.5em 31px;
+            color: #838383;
+            font-size: 30px;
+        }
+        /*类别内容*/
+        ul {
+            padding-left: 31px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            li {
+                line-height: 1.5em;
+                font-size: 30px;
+                list-style-type: none;
+                span.info-item {
+                    display: inline-block;
+                    width: 35%;
+                    color: #838383
+                }
+                .isprefs {
+                    background: #FCA609;
+                    color: #fff;
+                    margin-left: 10px;
+                    font-size: 25px;
+                    padding: 5px 7px;
+                    display: inline-block;
+                    line-height: 1.2em;
+                }
+                span {
+                    color: #343434;
+                }
+            }
+        }
+        hr {
+            margin-right: 2em
+        }
+    }
+}

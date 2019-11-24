@@ -1,0 +1,99 @@
+//外面的
+.appove-tab {
+	background-color: #fff;	
+}
+//Tab切换
+.tab-title {
+	.am-tabs-bar .am-tabs-tab {
+		font-size: 32px;
+		height: 80px;
+		line-height: 80px;
+		background-color: #F8F8F8;
+	}
+	.am-search {
+		background-color: #F8F8F8;
+	}
+}
+//列表
+.listCom {
+
+	.list {
+		display: -webkit-box;
+		display: flex;
+		height: 136px;
+		border-bottom: 2px solid #E4E4E4;
+		.icon { 
+			width: 10%;
+			height: 136px;
+		 	line-height: 136px;
+		   	text-align: center;
+		    img {
+		    	vertical-align: middle;
+		    	width: 100%;
+            }
+		}
+		.right-list {
+			display: inline-block;
+			width: 90%;
+			height: 136px;
+			margin-left: 30px;
+				.p-name {
+					// display: inline-block;
+					font-size: 32px;
+					color: #343434;
+					margin-bottom: 16px; 
+					margin-top: 25px;
+					.tel {
+						font-size: 26px;
+						color: #c0c0c0;
+						line-height: 42px;
+						float: right;
+					}
+				}
+				
+				.div-job {
+					font-size: 26px;
+					//margin-bottom: 20px;
+				}
+		}
+		
+	}
+}
+
+//
+.waiting {
+    position: fixed;
+    width: 210px;
+    height: 210px;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -60px;
+    display: block;
+    background-color: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #000;
+    z-index: 1;
+    img {
+        margin-top: 10px;
+        margin-left: 23px;
+    }
+    span {
+    	font-size: 24px;
+        margin-top: 5px;
+        display: block;
+        text-align: center;
+    }
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: #CCC;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    transition: opacity .15s linear;
+}

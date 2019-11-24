@@ -1,0 +1,156 @@
+.billLogin{
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+    .am-navbar.am-navbar-light{
+    	background-color: #ececec;
+    	color: #343434;
+    	.am-navbar-title{
+	    	font-size: 0.34rem;
+	    	font-family: "微软雅黑";
+    	}
+    }
+
+    .headBox{
+    	.headImg{
+    		/*height: 1.96rem;*/
+            height: 1.4rem;
+            position: relative;
+            text-align: center;
+            div{
+                width: 1.4rem;
+                height: 1.4rem;
+                line-height: 1.4rem;
+                font-family: "微软雅黑";
+                color: #fff;
+                font-size: 0.36rem;
+                /*height: 1.96rem;*/
+                position: absolute;
+                left: 50%;
+                margin-left: -0.7rem;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    	}
+    	.welcome{
+    		line-height: 0.7rem;
+    		text-align: center;
+    		font-family: "微软雅黑";
+    		color: #a9a9a9;
+    		font-size: 0.28rem;
+    	}
+    }
+    .am-list{
+    	.am-list-body{
+            &:after{border:none;}
+    		border-top: none;
+    		.am-list-item:after{
+    			border:none;
+    		}
+    		.am-list-item{
+    			.am-list-line:after{
+					border:none;
+    			}
+    			.am-list-line{
+    				.am-list-content{
+						padding: 0;
+						.s-am-search{
+							height: 0.8rem;
+                            line-height: 0.8rem;
+							background-color: #fff;
+							border-radius:0.1rem; 
+							border: 1PX solid #c0c0c0;
+                            position: relative;
+                            /*i{
+                                display: inline-block;
+                                width: 0.34rem;
+                                height: 0.34rem;
+                                background:url(../../../static/common/icon/search.png) no-repeat;
+                                background-size: 100% 100%;
+                                position: relative;
+                                left: 0.24rem;
+                                top: 0.25rem;
+                            }*/
+                            input{
+                                font-family: "微软雅黑";
+                                font-size: 0.3rem;
+                                display: inline-block;
+                                width: 5.6rem;
+                                height: 0.34rem;
+                                line-height: 0.34rem;
+                                border: none;
+                                position: absolute;
+                                left: 0.3rem;
+                                top: 0.23rem;
+                                ::-webkit-input-placeholder{
+                                    color:#c0c0c0;
+                                }
+                                &:hover{
+                                    border:none;
+                                }
+                            }
+                            i{
+                                display: block;
+                                width:0.5rem;
+                                height: 0.8rem;
+                                position: absolute;
+                                right: 0.3rem;
+                                top: 0;
+                                background:url(../../../static/common/icon/pwd_close.png) no-repeat right center;
+                                background-size:0.46rem auto;
+                                &.text{
+                                    background-image: url(../../../static/common/icon/pwd_open.png);
+                                }
+                                &.password{
+                                    background-image: url(../../../static/common/icon/pwd_close.png);
+                                }
+                            }
+						}
+						.am-button.am-button-primary{
+							margin-top:0.4rem;
+							background-color: #1baede;
+							border-color:#1baede;
+							font-family: "微软雅黑";
+							font-size: 0.34rem;
+						}
+					}
+				}
+				.links{
+					text-align: right;
+					a{
+						line-height: 0.9rem;
+						padding-left: 0.6rem;
+						font-family: "微软雅黑";
+						font-size: 0.32rem;
+						color: #1baede;
+					}
+				}
+    		}
+    	}
+    }
+    .desc{
+    	position: absolute;
+    	width: 100%;
+    	height: 1rem;
+    	line-height: 1rem;
+    	left: 0;
+    	top: 0;
+        margin-top: -1rem;
+    	font-family: "微软雅黑";
+    	font-size: 0.32rem;
+    	color: #808080;
+    	text-align: center;
+    }
+}
+#rcDialogTitle1{
+    font-family: "微软雅黑";
+    font-size: 0.32rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 0.4rem;
+}

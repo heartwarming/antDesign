@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.yonyouhr.com/version/download.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>友人才下载</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            -webkit-text-size-adjust: none;
+        }
+        html, body{
+            background: #fff;
+            font-family: "微软雅黑", "黑体", Arial, sans-serif;
+        }
+        .app{
+            width: 100%;
+        }
+        .container{
+            margin: 30px auto 0 auto;
+            text-align: center;
+        }
+        .container .logo{
+            width: 80px;
+            height: 80px;
+            margin: 50px 0 0;
+        }
+        .container h2{
+            color: #292F33;
+            margin:10px 0 0 0;
+            font-weight: normal;
+            font-size: 0.9375rem;
+        }
+        .container h3{
+            color: #8899A6;
+            margin:8px 0 0 0;
+            font-weight: normal;
+            font-size: 0.8125rem;
+        }
+        .download{
+            margin:64px 0 0 0;
+        }
+        .download a{
+            display: block;
+            margin: 0px 40px 14px 40px;
+            color: #343434;
+            text-decoration: none;
+            font-size: 1rem;
+            line-height: 60px;
+            background: #f4f4f4;
+            border-radius: 50px;
+            border: 1px solid #c0c0c0;
+            height: 60px;
+        }
+         .download a:before {
+            content: "";
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            vertical-align: top;
+            margin-top: 6px;
+        }
+        .download span{
+            display: inline-block;
+            height: 40px;
+            width: 100px;
+            text-align: left;
+            line-height: 40px;
+        }
+        .android:before{
+            background: url(./img/android.png) no-repeat center center;
+            background-size: 32px 37px;
+        }
+        .ios:before{
+            background: url(./img/ios.png) no-repeat center center;
+            background-size: 28px 32px;
+        }
+
+        .tip{
+            position: absolute;
+            right:10px;
+            top:10px;
+            color: #fff;
+            display: none;
+            border-radius: 4px;
+            background: #1B1B20;
+            padding: 4px 12px 4px 12px;
+            font-size: 0.8125rem;
+        }
+        .tip:before{
+            content: '';
+            position: absolute;
+            top: -8px;
+            right: 8px;
+            width:0;
+            height:0;
+            border-left:8px solid transparent;
+            border-right:8px solid transparent;
+            border-bottom:8px solid #1B1B20;
+        }
+        .tip span{
+            display: block;
+            padding:4px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <div>
+                <img src="./img/logo.png" alt="友人才logo" class="logo">
+                <h2>友人才</h2>
+                <h3>专业的员工服务与共享服务平台</h3>
+            </div>
+            <div class="download">
+                <a class="ios" href="https://itunes.apple.com/cn/app/you-ren-cai/id1150959876?mt=8"><span>iPhone下载</span></a>
+                <a class="android" href="http://app.qq.com/#id=detail&appid=1105771977"><span>Android下载</span></a>
+            </div>
+        </div>
+        <div class="tip" id="js-tip">
+            <span>点击右上角</span>
+            <span>选择"在浏览器中"打开</span>
+        </div>
+    </div>
+    <script>
+        var isWeiXin = function(){
+            var ua = window.navigator.userAgent.toLowerCase();
+            if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+                return true;
+            }else{
+                return false;
+            }
+        };
+        if(isWeiXin()){
+            var tip = document.getElementById('js-tip');
+            tip.style.display = 'block';
+        }
+    </script>
+
+
+</body></html>

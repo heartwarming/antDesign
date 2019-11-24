@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset="utf-8"><title>版本信息</title><meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no, email=no"><meta name="apple-mobile-web-app-status-bar-style" content="black"><style>html, body {
+            -webkit-touch-callout: none;
+            -webkit-text-size-adjust: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-user-select: none;
+            background-color: #fff;
+        }
+        html, body, header, section, footer, div, ul, ol, li, img, a, span, em, del, legend, center, strong, var, fieldset, form, label, dl, dt, dd, cite, input, hr, time, mark, code, figcaption, figure, textarea, h1, h2, h3, h4, h5, h6, p {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-style: normal;
+        }
+        html{
+            font-family: sans-serif;
+            overflow:scroll;
+        }
+        body{
+            font-size:0.3rem;
+            background:#fff;
+            color:#2e2e2e;
+            font-family:"微软雅黑";
+        }
+		.clear{clear:both;}
+		
+		#header{height:2.4rem;}
+		#header .left{float:left; width:32%; height:2.4rem;}
+		#header .left img{width:1.6rem; height:1.6rem; margin:0.4rem;}
+		#header .right{float:right; width:68%; height:2.4rem; position:relative;}
+		#header .autoHei{height:auto; position:relative; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);}
+		#header .right p.version{line-height:0.45rem; font-size:0.36rem; color:#343434;}
+		#header .right p.size{line-height:0.36rem; font-size:0.3rem; color:#808080;}
+		#header .right p.env{line-height:0.36rem; font-size:0.3rem; color:#808080;}
+		
+		#content{width:89.33%; margin-left:5.33%;}
+		#content p{width:100%; word-break:break-all; text-align:justify; line-height:0.5rem; font-size:0.32rem; color:#696969;}
+		#footer{height:0.9rem;}
+        
+		#wrap .btnBox{position:absolute; bottom:0; width:100%;}
+        #wrap .btnBox #submit{width:7.5rem; height:0.9rem; background:#1baede; color:#fff;}</style></head><body><div id="wrap"><div id="header"><div class="left"><p class="env"></p></div><div class="right"><div class="autoHei"></div></div><div class="clear"></div></div><div id="content"><p class="version">V 1.0.4</p><p class="size">16M</p><p class="env"></p>
+        <p>本次更新包含：</p>
+        <p>1、上线HCM查薪资功能</p>
+        <p>2、增加我的团队</p>
+        <p>3、找回密码功能优化</p>
+        <p>4、增加审批转发功能</p>
+        <p>5、驳回申请模块优化</p>
+        </div><div id="footer"></div></div></body><script type="text/javascript">(function (doc, win) {
+     var docEl = doc.documentElement,
+          resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+          recalc    = function () {
+                 var clientWidth = docEl.clientWidth;
+                 if (clientWidth>=750) {
+                    clientWidth = 750;
+                 };
+                 if (!clientWidth) return;
+               docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          };
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);</script></html>

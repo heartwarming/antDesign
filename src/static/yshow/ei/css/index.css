@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, img, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ul, li {
+    list-style: none;
+}
+
+/*==========global============*/
+
+html, body {
+    height: 100%;
+}
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-10px);
+        opacity: 0;
+    }
+}
+.arrow {
+    -webkit-animation: arrow 1.5s ease infinite;
+}
+.arrowUp {
+    position: absolute;
+    top: 92%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 36px;
+    opacity: 0;
+    z-index: 10;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #fff;
+}
+
+/*============page1===========*/
+
+.swiper-slide1>img:nth-child(1) {
+    width: 68%;
+    position: absolute;
+    top: 6%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 4;
+}
+.swiper-slide1>img:nth-child(2) {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    z-index: 1;
+}
+.swiper-slide1>img:nth-child(3) {
+    position: absolute;
+    top: 88%;
+    width: 237px;
+    left: 0px;
+    right: 0;
+    z-index: 3;
+    margin: 0 auto;
+}
+.swiper-slide1>img:nth-child(4) {
+    position: absolute;
+    bottom: -2%;
+    width: 102%;
+    left: 0px;
+    right: 0;
+    z-index: 5;
+    margin: 0 auto;
+}
+.swiper-slide1>img:nth-child(5) {
+    position: absolute;
+    top: 8%;
+    width: 190%;
+    left: 0px;
+    z-index: 2;
+    margin: 0 auto;
+}
+.swiper-slide1>img:nth-child(6) {
+    position: absolute;
+    top: 64%;
+    right: 0;
+    z-index: 2;
+    width: 180%;
+    margin: 0 auto;
+}
+
+/*============page2===========*/
+
+.swiper-slide2>img:nth-child(1) {
+    width: 100%;
+    z-index: 1;
+}
+.swiper-slide2 .con2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con2>img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 88%;
+    z-index: 1;
+}
+.con2>img:nth-child(2) {
+    position: absolute;
+    z-index: 2;
+    top: 14%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 76%;
+}
+.con2>img:nth-child(3) {
+    position: absolute;
+    top: -8.5%;
+    left: 5%;
+    width: 32%;
+    z-index: 6;
+}
+.con2>img:nth-child(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 72%;
+    z-index: 4;
+}
+
+/*============page3===========*/
+
+.swiper-slide3>img:nth-child(1) {
+    width: 100%;
+}
+.swiper-slide3 .page3-info {
+    width: 78%;
+    margin: 9% auto 0;
+}
+.swiper-slide3 .con3 {
+    margin-top: 2%;
+    overflow: hidden;
+}
+.swiper-slide3 .con3>li {
+    float: left;
+    width: 32%;
+}
+.swiper-slide3 .con3>li>img {
+    width: 100%;
+}
+.con3>li:nth-child(2) {
+    margin: 0 2%;
+}
+
+/*============page5===========*/
+
+.swiper-slide5 {
+    background: url("../img/p5-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.swiper-slide5 .welcome {
+    width: 75%;
+    position: absolute;
+    top: 74%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+.swiper-slide5>ul {
+    width: 90%;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+.swiper-slide5>ul>li {
+    width: 100%;
+    float: left;
+    z-index: 2;
+}
+.swiper-slide5>ul>li>img {
+    width: 23%;
+    float: left;
+    margin: 1%;
+    z-index: 2;
+}
+
+/*----------竖屏----------*/
+
+.landscape {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+    line-height: ve;
+    display: none;
+    z-index: 666;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.landscape div {
+    margin: 25% auto;
+}
+@media(orientation:landscape) {
+    .landscape {
+        display: block;
+    }
+}
